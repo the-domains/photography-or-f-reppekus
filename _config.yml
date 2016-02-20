@@ -1,29 +1,41 @@
-name: 'Photography | F. Reppekus'
-favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.44976
 title: ©F. Reppekus 1998 - 2016
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.7040817
+  brandStrength: 0.875
+  lightness: 0.4044038
   brandColors:
     - '#000000'
     - '#202020'
     - '#ffffff'
     - '#6b6b6b'
     - '#b1b1b1'
-  brandStrength: 0.875
-  lightness: 0.4375
-  saturation: 0.3125
   rhythmicContrast: 0.75
-purpose: []
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+name: 'Photography | F. Reppekus'
+favicon: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.44976
+layout_spectrum: 1
